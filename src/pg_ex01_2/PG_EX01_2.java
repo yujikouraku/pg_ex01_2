@@ -85,8 +85,54 @@ public class PG_EX01_2 {
 				}
 			}
 			System.out.println("「" + input_value + "」" + "「" + output_string + "」");
-
+			}
+		}
+	public static String KazuHenkan(int input_num) {
+		if (input_num == 1){
+			return "I";
+		}else if(input_num == 2){
+			return "II";
+		}else if(input_num == 3){
+			return "III";
+		}else if(input_num == 4){
+			return "IV";
+		}else if(input_num == 5){
+			return "V";
+		}else if(input_num == 6){
+			return "VI";
+		}else if(input_num == 7){
+			return "VII";
+		}else if(input_num == 8){
+			return "VIII";
+		}else if(input_num == 9){
+			return "IX";
+		}else if(input_num == 10){
+			return "X";
+		}else if(input_num >10 && input_num <= 20){
+			if(input_num%10 == 1){
+				return "XI";
+			}else if(input_num%10 == 2){
+				return "XII";
+			}else if(input_num%10 == 3){
+				return "XIII";
+			}else if(input_num%10 == 4){
+				return "XIV";
+			}else if(input_num%10 == 5){
+				return "XV";
+			}else if(input_num%10 == 6){
+				return "XVI";
+			}else if(input_num%10 == 7){
+				return "XVII";
+			}else if(input_num%10 == 8){
+				return "XVIII";
+			}else if(input_num%10 == 9){
+				return "XIX";
+			}
+			else if(input_num%10 == 0);
+				return "XX";
+		}else{
+			return "変換できません";
+		}
+		}
 	}
-	}
-}
 
